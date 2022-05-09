@@ -1,5 +1,6 @@
 import React from "react";
 import Toggle from "../toggle/toggle";
+import "./drum-controls.css";
 
 class DrumControls extends React.Component {
   constructor(props) {

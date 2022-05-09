@@ -1,0 +1,33 @@
+.toggleBtnGroup {
+  width: calc(var(--boxSize) * 4);
+  margin: 10px auto;
+  display: block;
+}
+
+.toggleBtnGroup > * {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.toggleBtnGroup p.title {
+  margin: 0;
+  padding: 0;
+}
+
+.toggleBtnGroup .toggleBtn {
+  width: calc(var(--boxSize) * 2);
+  height: var(--boxSize);
+  border: 3px black solid;
+}
+
+.toggleBtnGroup .toggleBtn > div {
+  display: inline-block;
+  width: var(--boxSize);
+  height: var(--boxSize);
+  background-color: black;
+}
+
+.toggleBtnGroup .toggleBtn > div.active {
+  background-color: blue;
+}

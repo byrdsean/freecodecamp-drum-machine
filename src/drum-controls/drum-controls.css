@@ -1,0 +1,11 @@
+#drum-controls {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#volume-control {
+  display: block;
+  margin: 20px auto;
+  width: 75%;
+}
