@@ -1,4 +1,5 @@
 import React from "react";
+import "./toggle.css";
 
 class Toggle extends React.Component {
   constructor(props) {

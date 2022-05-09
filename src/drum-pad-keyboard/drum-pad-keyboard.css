@@ -1,0 +1,7 @@
+#drum-pads {
+  display: block;
+  margin: 0 auto;
+  background-color: purple;
+  max-width: calc(var(--boxSize) * 12);
+  width: 100%;
+}

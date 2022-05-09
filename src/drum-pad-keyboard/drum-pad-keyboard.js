@@ -1,5 +1,6 @@
 import React from "react";
 import DrumPad from "../drum-pad/drum-pad";
+import "./drum-pad-keyboard.css";
 
 class DrumPadKeyboard extends React.Component {
   render() {

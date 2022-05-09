@@ -1,0 +1,14 @@
+.drum-pad {
+  border: 0;
+  background-color: blue;
+  margin: calc(var(--boxSize) / 2);
+  width: calc(var(--boxSize) * 3);
+  height: calc(var(--boxSize) * 3);
+  font-size: 2rem;
+  color: white;
+}
+
+.drum-pad.playing {
+  background-color: orange;
+  color: black;
+}

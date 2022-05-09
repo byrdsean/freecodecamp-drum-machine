@@ -3,6 +3,7 @@ import DrumPadKeyboard from "../drum-pad-keyboard/drum-pad-keyboard";
 import DrumControls from "../drum-controls/drum-controls";
 import bankOne from "../resources/bankOne.json";
 import bankTwo from "../resources/bankTwo.json";
+import "./App.css";
 
 class App extends React.Component {
   constructor(props) {

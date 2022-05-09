@@ -1,0 +1,35 @@
+#app {
+  display: flex;
+  direction: row;
+  justify-content: center;
+}
+
+#drum-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 768px;
+  height: 100vh;
+}
+
+#drum-machine {
+  border: 5px orange solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--lightBlue);
+  padding: 50px;
+  width: 100%;
+}
+
+#display {
+  display: block;
+  margin: 0 auto;
+  border: 2px black solid;
+  width: 50%;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
